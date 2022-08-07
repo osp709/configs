@@ -1,0 +1,38 @@
+include-file = ~/.config/bspwm/polybar/colors
+include-file = ~/.config/bspwm/polybar/modules
+[bar/tray]
+
+monitor-strict = false
+width = 20
+height = 25
+
+offset-x = 98% 
+offset-y = 35
+
+override-redirect = true
+
+fixed-center = true
+
+background = ${color.BACKGROUND}
+foreground = ${color.FOREGROUND}
+
+radius = 8
+
+line-size = 0
+line-color = #f00
+
+padding-left = 0
+padding-right = 1
+module-margin-left = 0
+module-margin-right = 0
+
+modules-right = sep
+
+tray-position = right
+tray-detached = false
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 1
+tray-maxsize = 20
+tray-scale = 1.0
+tray-background = ${color.BACKGROUND}
